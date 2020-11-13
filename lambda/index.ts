@@ -33,6 +33,7 @@ const SearchIntentHandler : RequestHandler = {
   async handle(handlerInput : HandlerInput) : Promise<Response> {
     const searchTerm = (handlerInput.requestEnvelope.request as any).intent.slots.SearchTerm.value;
     let speechText = `Sorry, no search results found matching ${searchTerm}`;
+    let cardText = speechText;
     console.log(handlerInput.requestEnvelope.request);
     console.log(searchTerm);
     const response = await axios.post('https://demo-api.ocean-archive.org/pages/search',
@@ -42,7 +43,8 @@ const SearchIntentHandler : RequestHandler = {
       console.log(element);
       if (element.type==='Audio' && element.s3_key.endsWith(".mp3")) {
         const url='https://alexa-audio.ocean-archive.org/'+element.s3_key.substring(0, element.s3_key.lastIndexOf('.')) + '_Alexa_audio.mp3'
-        speechText=`Found an item for ${searchTerm}. Now playing ${element.title} <audio src="${url}" />`;
+        speechText=`Found an item for ${searchTerm}. Now playing ${element.title}. <audio src="${url}" />`;
+        cardText=`Found an item for ${searchTerm}. Now playing ${element.title}.`;
         console.log(speechText);
       }
     });
