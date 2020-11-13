@@ -3,16 +3,16 @@
     "publishingInformation": {
       "locales": {
         "en-US": {
-          "summary": "Sample Short Description",
+          "summary": "Search the Ocean Archive for playable audio content.",
           "examplePhrases": [
-            "Ocean Archive, search for fish"
+            "Alexa, ask Ocean Archive to search for humpback"
           ],
           "name": "ocean-archive",
-          "description": "Sample Full Description"
+          "description": "Ocean Archive is a digital platform in the making; an archive and framework for collaborative research. It brings together a multitude of Ocean voices and stories and connects those striving to nurture and protect it. This skill lets you search the audio content of the Archive."
         }
       },
       "isAvailableWorldwide": true,
-      "testingInstructions": "Sample Testing Instructions.",
+      "testingInstructions": "Alexa, ask Ocean Archive to search for humpback.",
       "category": "EDUCATION_AND_REFERENCE",
       "distributionCountries": []
     },

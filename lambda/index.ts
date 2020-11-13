@@ -15,12 +15,12 @@ const LaunchRequestHandler : RequestHandler = {
     return handlerInput.requestEnvelope.request.type === 'LaunchRequest';
   },
   handle(handlerInput : HandlerInput) : Response {
-    const speechText = 'Welcome to the Alexa Skills Kit, you can say hello!';
+    const speechText = 'Welcome to the Ocean Archive! You can ask Ocean Archive to search for something, e.g. "Alexa, ask Ocean Archive to search for humpback."';
 
     return handlerInput.responseBuilder
       .speak(speechText)
       .reprompt(speechText)
-      .withSimpleCard('Hello World', speechText)
+      .withSimpleCard('Ocean Archive', speechText)
       .getResponse();
   },
 };
@@ -50,6 +50,7 @@ const SearchIntentHandler : RequestHandler = {
     return handlerInput.responseBuilder
       .speak(speechText)
       .withSimpleCard('Ocean Archive', speechText)
+      .withShouldEndSession(false)
       .getResponse();
   },
 };
@@ -60,12 +61,12 @@ const HelpIntentHandler : RequestHandler = {
       && handlerInput.requestEnvelope.request.intent.name === 'AMAZON.HelpIntent';
   },
   handle(handlerInput : HandlerInput) : Response {
-    const speechText = 'You can say hello to me!';
+    const speechText = 'To use the Ocean Archive Alexa skill, ask the ocean archive to search for a keyword, e.g. Alexa, ask Ocean Archive to search for humpback.';
 
     return handlerInput.responseBuilder
       .speak(speechText)
       .reprompt(speechText)
-      .withSimpleCard('Hello World', speechText)
+      .withSimpleCard('Ocean Archive', speechText)
       .getResponse();
   },
 };
@@ -81,7 +82,7 @@ const CancelAndStopIntentHandler : RequestHandler = {
 
     return handlerInput.responseBuilder
       .speak(speechText)
-      .withSimpleCard('Hello World', speechText)
+      .withSimpleCard('Ocean Archive', speechText)
       .withShouldEndSession(true)      
       .getResponse();
   },
