@@ -1,5 +1,5 @@
 # TBA21-OA-Alexa
-[Ocean Archive] Alexa skill
+[Ocean Archive](https://ocean-archive.org) Alexa skill
 
 ## Privacy Policy
 This skill retains no user data, only anonymised records of search terms.
