@@ -1,2 +1,8 @@
 # TBA21-OA-Alexa
-OA Alexa skill
+[Ocean Archive] Alexa skill
+
+## Privacy Policy
+This skill retains no user data, only anonymised records of search terms.
+
+## Terms of Use
+You agree that your anonymised search terms will be recorded as part of our skill's logs.
