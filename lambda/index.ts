@@ -51,7 +51,7 @@ const SearchIntentHandler : RequestHandler = {
 
     return handlerInput.responseBuilder
       .speak(speechText)
-      .withSimpleCard('Ocean Archive', speechText)
+      .withSimpleCard('Ocean Archive', cardText)
       .withShouldEndSession(false)
       .getResponse();
   },
