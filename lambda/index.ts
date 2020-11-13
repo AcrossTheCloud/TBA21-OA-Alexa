@@ -21,6 +21,7 @@ const LaunchRequestHandler : RequestHandler = {
       .speak(speechText)
       .reprompt(speechText)
       .withSimpleCard('Ocean Archive', speechText)
+      .withShouldEndSession(false)
       .getResponse();
   },
 };
