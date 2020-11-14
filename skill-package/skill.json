@@ -7,7 +7,7 @@
           "examplePhrases": [
             "Alexa, ask Ocean Archive to search for humpback"
           ],
-          "name": "ocean-archive",
+          "name": "Ocean Archive",
           "description": "Ocean Archive is a digital platform in the making; an archive and framework for collaborative research. It brings together a multitude of Ocean voices and stories and connects those striving to nurture and protect it. This skill lets you search the audio content of the Archive."
         }
       },
