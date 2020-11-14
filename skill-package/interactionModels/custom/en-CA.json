@@ -1,0 +1,42 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "ocean archive",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "SearchIntent",
+                    "slots": [{
+                      "name": "SearchTerm",
+                      "type": "AMAZON.SearchQuery"
+                    }],
+                    "samples": [
+                      "search for {SearchTerm}",
+                      "to search for {SearchTerm}",
+                      "search the archive for {SearchTerm}",
+                      "to search the archive for {SearchTerm}",
+                      "to look for {SearchTerm}",
+                      "look for {SearchTerm}"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                }
+            ],
+            "types": []
+        }
+    }
+  }
+  
