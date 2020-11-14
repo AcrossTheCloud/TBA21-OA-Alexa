@@ -8,13 +8,86 @@
             "Alexa, ask Ocean Archive to search for humpback"
           ],
           "name": "Ocean Archive",
-          "description": "Ocean Archive is a digital platform in the making; an archive and framework for collaborative research. It brings together a multitude of Ocean voices and stories and connects those striving to nurture and protect it. This skill lets you search the audio content of the Archive."
+          "description": "Ocean Archive is a digital platform in the making; an archive and framework for collaborative research. It brings together a multitude of Ocean voices and stories and connects those striving to nurture and protect it. This skill lets you search the audio content of the Archive.",
+          "largeIconUri": "https://ocean-archive.org/favicons/android-chrome-512x512.png",
+          "smallIconUri": "https://ocean-archive.org/favicons/alexa-small-108x108.png",
+          "keywords": [
+            "ocean",
+            "archive"
+          ]
+        },
+        "en-GB": {
+          "summary": "Search the Ocean Archive for playable audio content.",
+          "examplePhrases": [
+            "Alexa, ask Ocean Archive to search for humpback"
+          ],
+          "name": "Ocean Archive",
+          "description": "Ocean Archive is a digital platform in the making; an archive and framework for collaborative research. It brings together a multitude of Ocean voices and stories and connects those striving to nurture and protect it. This skill lets you search the audio content of the Archive.",
+          "largeIconUri": "https://ocean-archive.org/favicons/android-chrome-512x512.png",
+          "smallIconUri": "https://ocean-archive.org/favicons/alexa-small-108x108.png",
+          "keywords": [
+            "ocean",
+            "archive"
+          ]
+        },
+        "en-CA": {
+          "summary": "Search the Ocean Archive for playable audio content.",
+          "examplePhrases": [
+            "Alexa, ask Ocean Archive to search for humpback"
+          ],
+          "name": "Ocean Archive",
+          "description": "Ocean Archive is a digital platform in the making; an archive and framework for collaborative research. It brings together a multitude of Ocean voices and stories and connects those striving to nurture and protect it. This skill lets you search the audio content of the Archive.",
+          "largeIconUri": "https://ocean-archive.org/favicons/android-chrome-512x512.png",
+          "smallIconUri": "https://ocean-archive.org/favicons/alexa-small-108x108.png",
+          "keywords": [
+            "ocean",
+            "archive"
+          ]
+        },
+        "en-AU": {
+          "summary": "Search the Ocean Archive for playable audio content.",
+          "examplePhrases": [
+            "Alexa, ask Ocean Archive to search for humpback"
+          ],
+          "name": "Ocean Archive",
+          "description": "Ocean Archive is a digital platform in the making; an archive and framework for collaborative research. It brings together a multitude of Ocean voices and stories and connects those striving to nurture and protect it. This skill lets you search the audio content of the Archive.",
+          "largeIconUri": "https://ocean-archive.org/favicons/android-chrome-512x512.png",
+          "smallIconUri": "https://ocean-archive.org/favicons/alexa-small-108x108.png",
+          "keywords": [
+            "ocean",
+            "archive"
+          ]
         }
       },
       "isAvailableWorldwide": true,
       "testingInstructions": "Alexa, ask Ocean Archive to search for humpback.",
       "category": "EDUCATION_AND_REFERENCE",
       "distributionCountries": []
+    },
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "locales": {
+        "en-US": {
+          "privacyPolicyUrl": "https://github.com/AcrossTheCloud/TBA21-OA-Alexa/blob/main/README.md",
+          "termsOfUseUrl": "https://github.com/AcrossTheCloud/TBA21-OA-Alexa/blob/main/README.md"
+        },
+        "en-GB": {
+          "privacyPolicyUrl": "https://github.com/AcrossTheCloud/TBA21-OA-Alexa/blob/main/README.md",
+          "termsOfUseUrl": "https://github.com/AcrossTheCloud/TBA21-OA-Alexa/blob/main/README.md"
+        },
+        "en-CA": {
+          "privacyPolicyUrl": "https://github.com/AcrossTheCloud/TBA21-OA-Alexa/blob/main/README.md",
+          "termsOfUseUrl": "https://github.com/AcrossTheCloud/TBA21-OA-Alexa/blob/main/README.md"
+        },
+        "en-AU": {
+          "privacyPolicyUrl": "https://github.com/AcrossTheCloud/TBA21-OA-Alexa/blob/main/README.md",
+          "termsOfUseUrl": "https://github.com/AcrossTheCloud/TBA21-OA-Alexa/blob/main/README.md"
+        }
+      },
+      "isExportCompliant": true,
+      "containsAds": false,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
     },
     "apis": {
       "custom": {
